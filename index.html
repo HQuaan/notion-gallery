@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Horizontal Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 10px;
+      font-family: sans-serif;
+      background: #f9f9f9;
+    }
+    .gallery {
+      display: flex;
+      overflow-x: auto;
+      gap: 16px;
+      padding-bottom: 10px;
+    }
+    .card {
+      flex: 0 0 auto;
+      width: 220px;
+      height: 150px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-weight: bold;
+    }
+    .card a {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="card"><a href="https://www.notion.so/Mathematics-2038993ff6e480d48b09cf6a5f1bd7d0?source=copy_link>Page 1</a></div>
+    <div class="card"><a href="https://www.notion.so/Data-science-2038993ff6e4802399b3e9acb111d4f1?source=copy_link">Page 2</a></div>
+    <div class="card"><a href="https://www.notion.so/Business-Analytics-and-Econometrics-2038993ff6e480a58051ff92a0acb902?source=copy_link">Page 3</a></div>
+    <div class="card"><a href="https://www.notion.so/Machine-Learning-and-Artificial-Intelligence-2038993ff6e480fcb091ed342fd0bb27?source=copy_link">Page 1</a></div>
+    <div class="card"><a href="https://www.notion.so/Science-2038993ff6e4809abd43ec44f4aca7ae?source=copy_link">Page 1</a></div>
+    <div class="card"><a href="https://www.notion.so/Social-Sciences-2038993ff6e48061b63fd0c11c408687?source=copy_link">Page 1</a></div>
+    <!-- thêm nhiều card tùy ý -->
+  </div>
+</body>
+</html>
